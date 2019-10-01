@@ -15,7 +15,7 @@ id_map = dict()
 
 ## Path to read Credentials file
 ## Create a Credentials folder
-credentials_path = 'credentials/twitter_credentials.json'
+credentials_path = 'Credentials/twitter_credentials.json'
 with open(credentials_path, "r") as file:
     cred = json.load(file)
     consumer = cred["CONSUMER_KEY"]
@@ -139,7 +139,6 @@ if __name__ == "__main__":
     social_network, id_map = load_dicts()
     ## Run the line below to get 50 followers for each player in a CSV
     get_player_followers()
-
     ## Iterate through player handles
     for player in players:
         # Read CSV containing followers
