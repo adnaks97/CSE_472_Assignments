@@ -13,3 +13,8 @@ Steps to Run Our Code:
 
 ---> To calculate network measures
 1. Run network_measures.py
+
+---> Please Ignore the 'Old' folder
+
+---> Our Id_map.pkl has 614 entries. We did not delete some of the old entries
+    we scraped earlier. However on re-running the code, this will get re-written
